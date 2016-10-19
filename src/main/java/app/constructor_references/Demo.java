@@ -19,5 +19,7 @@ public class Demo {
         BiFunction<String, Integer, Pupil> biFunction = Pupil::new;
 
 
+
+
     }
 }
