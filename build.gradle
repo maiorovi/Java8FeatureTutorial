@@ -11,4 +11,5 @@ repositories {
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.11'
+    compile group: 'org.jbehave', name: 'jbehave-core', version: '4.0.5'
 }
