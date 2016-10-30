@@ -33,5 +33,9 @@ public class LocalDateDemo {
         now.get(ChronoField.DAY_OF_WEEK);
 
 
+        now.with(ChronoField.YEAR, 2011);
+        now.withYear(2011);
+        now.withDayOfMonth(20);
+
     }
 }
